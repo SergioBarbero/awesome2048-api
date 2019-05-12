@@ -1,4 +1,8 @@
-package com.awesome2048.Game;
+package com.awesome2048.Board;
+
+import com.awesome2048.Cell.Cell;
+import com.awesome2048.Direction.Direction;
+import com.awesome2048.Tile.Tile;
 
 import java.util.Arrays;
 import java.util.Random;

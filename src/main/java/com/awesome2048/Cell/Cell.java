@@ -1,4 +1,6 @@
-package com.awesome2048.Game;
+package com.awesome2048.Cell;
+
+import com.awesome2048.Tile.Tile;
 
 public class Cell {
     private Tile tile;

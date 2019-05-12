@@ -26,13 +26,4 @@ public class ScoreController {
         repository.save(newScore);
         return newScore;
     }
-
-    @PostMapping("/move")
-    public Score postMove(@RequestBody Score newScore, HttpServletRequest request) throws IOException {
-
-    }
-
-    @PostMapping("/new-game")
-    public Score newGame(@RequestBody Score newScore, HttpServletRequest request) throws IOException {
-    }
 }

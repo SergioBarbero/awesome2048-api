@@ -1,4 +1,4 @@
-package com.awesome2048.Game;
+package com.awesome2048.Tile;
 
 import java.util.Random;
 

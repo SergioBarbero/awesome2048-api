@@ -1,5 +1,8 @@
 package com.awesome2048.Game;
 
+import com.awesome2048.Board.Board;
+import com.awesome2048.Direction.Direction;
+
 public class Game {
     private int currentScore;
     private Board board;
