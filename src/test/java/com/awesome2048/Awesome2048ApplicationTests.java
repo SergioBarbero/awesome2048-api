@@ -1,4 +1,4 @@
-package com.awesome2048.score;
+package com.awesome2048;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

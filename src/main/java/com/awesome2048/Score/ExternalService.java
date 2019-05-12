@@ -1,4 +1,4 @@
-package com.awesome2048.score;
+package com.awesome2048.Score;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;

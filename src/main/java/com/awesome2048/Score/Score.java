@@ -1,4 +1,4 @@
-package com.awesome2048.score;
+package com.awesome2048.Score;
 
 import javax.persistence.*;
 

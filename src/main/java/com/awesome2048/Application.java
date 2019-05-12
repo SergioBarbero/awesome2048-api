@@ -1,4 +1,4 @@
-package com.awesome2048.score;
+package com.awesome2048;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
