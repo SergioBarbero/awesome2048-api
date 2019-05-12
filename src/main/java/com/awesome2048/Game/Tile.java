@@ -12,6 +12,6 @@ public class Tile {
     }
 
     public void increase() {
-        this.value = this.value * 2;
+        this.value *= 2;
     }
 }
