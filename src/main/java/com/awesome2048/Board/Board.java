@@ -11,7 +11,7 @@ public class Board {
 
     private Cell[][] cells;
 
-    private Board(int size) {
+    public Board(int size) {
         this.cells = new Cell[size][size];
     }
 
@@ -27,8 +27,16 @@ public class Board {
         return Arrays.stream(cells).flatMap(Arrays::stream).allMatch(Cell::hasTile);
     }
 
+    public Cell[] getRow(int i) {
+        return cells[i];
+    }
+
     public Cell getCell(int i, int j) {
         return cells[i][j];
+    }
+
+    public int getSize() {
+        return cells.length;
     }
 
     /**
