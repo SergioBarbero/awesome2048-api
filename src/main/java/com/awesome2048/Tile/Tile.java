@@ -11,6 +11,10 @@ public class Tile {
         this.value = possibleValues[index];
     }
 
+    public Tile(int value) {
+        this.value = value;
+    }
+
     public int getValue() {
         return value;
     }
